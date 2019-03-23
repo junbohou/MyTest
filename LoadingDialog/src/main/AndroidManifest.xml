@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viewtools.loadingdialog">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+
+
+        <activity
+            android:name="com.viewtools.loadingdialog.testactivity.MainTestActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.viewtools.loadingdialog.testactivity.SampleActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.viewtools.loadingdialog.testactivity.TempActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+    </application>
+
+</manifest>
